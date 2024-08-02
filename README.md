@@ -1,13 +1,11 @@
 # incomeStatementAnalyzer
 
 IS-Tool
-A simple, no-fuss way to extract public companies' income statements, compare them YOY, paly with individual statement pieces, etc.
+A simple, no-fuss way to extract public companies' income statements, compare them YOY, play with individual statement pieces, and even visualize individual statement items in a plot graph!
 
 Getting Started
 
 To get a local copy up and running follow these simple example steps:
-
-Prerequisites
 
 This tool is run on [python](https://www.python.org/), with [pip](https://pip.pypa.io/en/stable/installation/) as the command interface. Once you have pip installed, use 'pip install' command to install 'requests' and 'pyplot'
 
