@@ -3,6 +3,9 @@
 [![CI](https://github.com/Jmz0127/incomeStatementAnalyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/Jmz0127/incomeStatementAnalyzer/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
+[![Live demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://income-statement-analyzer.streamlit.app)
+
+**▶ [Try the live demo](https://income-statement-analyzer.streamlit.app)**
 
 Pull annual income statements for any SEC filer straight from **EDGAR XBRL filings**, run margin, growth, and common-size analysis, export a **review-ready Excel workbook with an XBRL audit trail**, generate **MD&A-style commentary with Claude**, and expose all of it to AI assistants through an **MCP server**.
 
@@ -58,7 +61,7 @@ isviz narrate AAPL                   # Claude-written MD&A-style commentary
 streamlit run app/streamlit_app.py
 ```
 
-KPI cards, interactive Plotly charts, ratio tables, peer comparison, one-click Excel download, AI commentary, and the XBRL source map. You can deploy it free on [Streamlit Community Cloud](https://streamlit.io/cloud) by pointing it at `app/streamlit_app.py` and adding `SEC_USER_AGENT` (and optionally `ANTHROPIC_API_KEY`) as secrets.
+KPI cards, interactive Plotly charts, ratio tables, peer comparison, one-click Excel download, AI commentary, and the XBRL source map. A hosted version runs at **[income-statement-analyzer.streamlit.app](https://income-statement-analyzer.streamlit.app)**. You can deploy your own copy free on [Streamlit Community Cloud](https://streamlit.io/cloud) by pointing it at `app/streamlit_app.py` and adding `SEC_USER_AGENT` (and optionally `ANTHROPIC_API_KEY`) as secrets.
 
 ### MCP server (use it from Claude)
 
